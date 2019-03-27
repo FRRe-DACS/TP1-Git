@@ -3,21 +3,13 @@
 public class Bienvenida{
 
 	public static void main(String[] args){
-		System.out.println("-----RZ Software----");
-		System.out.println("");
-		System.out.println("Hola, por favor ingresá tu Nombre: ");
-		System.out.println("");
-		String entradaTeclado="";
-		Scanner entradaScanner= new Scanner(System.in);
-		entradaTeclado = entradaScanner.nextLine();
-		System.out.println("");
-		System.out.println("Bienvenid@ "+entradaTeclado+" gracias por elegirnos!!!");
-		System.out.println("");
-		System.out.println("Hasta la proxima...");
-
-
-
-	}
+		   
+		String entradaTeclado2="";
+		Scanner entradaScanner2= new Scanner(System.in);
+		entradaTeclado2 = entradaScanner2.nextLine();
+		if (entradaTeclado2.length()==0){
+		System.out.println("presiono una tecla"
+                        + "");	
+			}
+	 }
 }
-
-
