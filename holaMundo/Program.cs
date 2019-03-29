@@ -20,6 +20,8 @@ namespace holaMundo
             Console.ReadKey();
 
             Console.ReadKey();
+Console.Write("Press <Enter> to exit... ");
+      while (Console.ReadKey(true).Key != ConsoleKey.Enter) {}
         }
     }
 }
