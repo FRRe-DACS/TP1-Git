@@ -1,6 +1,9 @@
 # TP1-Git
 hola mundo
 
+Acceso a Datos con entity framework
+https://www.entityframeworktutorial.net/code-first/simple-code-first-example.aspx
+
 create a new repository on the command line
 
 ```console
